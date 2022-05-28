@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "clean-road-270813",
+  "private_key_id": "0d89849be2da3a6369d7d3e751b480fab2dfae6b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDAZQMyRJIKoF/0\nMN3m+Q/RUnCDdo0LSTB74haimALWr74umWBxMBdHxLGxL8kNPzclLtAxEbsVo6UU\nFUnbyh4SCEPWzMoysHvRifAaHQDyu7QgHAdHkG61P0exg+wUn3j+UI7dxTDjBMlw\n9zm+FdFZm+nnzKf4eZ8khW28wTEG4BrnMP+xjaD/Hz4h0J5D2UN+df197ZO+i2Ny\nZu3LoYTBq6FB4eD11m4200c7M6QjJCIpXYwofCKPjjUHJkcB8N6/63N569rxg33k\nE4K2VqSMTdAWFtIDBsV4gj6yvTcamhV4EPaQ9gbyWRGaamRZ/lVf2zTPR6RaQ0N8\nyP9WkSadAgMBAAECggEAGeGs1acQT2ImLlshitgP9uyEasb4r987aLrwKRTScu+G\n4c1rwiZCR3sQHWIshX3uzO94fdVhCcbvJt27RxgwReQ7PgrkG4AO1BAejuC+dyjl\nkRk8KHYnUnYODrUMvfR7Chkrsu07R5rl/26eo7HbLRcSlwZ6xSwVSswxSD5j+kTR\nWf4jcLS6JJUnbpWAXL461uEd2iWbq9RTVQ9cq4YLvmWZxW8nZOrn5Femour6oODS\nLsc7eX+Ffz12/8ueOCYUz9LXxz/IB/oDzC0yCP11DcXSLTVcZRV/SFnBxwA/M5hG\nbh1a2QAa1N5dp7V0oOHrSdnZJKpcZY/HLcZpHenaOQKBgQDhYHZxGYlHxN3CQ6Xe\n4fiAipVfki+hLaASaR/Kd5ckBpagdXaWj6zBZypCpxT4ZqQ/9recWrvQXNM/wN2j\nbznGEri7FwEpUrnULFR9bhonXBMWh+ZQJaQPPTBXYg1KYG3+y2/uiPR8ayOmJ4y7\n1KjPH5WALHxjJ+R8pIQzSD58hQKBgQDaiUqkWOZKxcObVlyMUCt42oO93IrIJtTh\na5P2x/kQWZgHbN3n4XfbMOelCWIwPrCQFbNSpa/qR9dt8iqknFbwyDZ8IZ/sA5bg\nRBkeAIWLqgA7Dbo4jBdxnR+mnNRcUndaPXOU9BSfngTchmXA5v/nK3D6hWEKrnaY\nSC7giEfJOQKBgGHQNrdRSOZQB5qXN3brBanr+3Y2ANvn7E/xNe3uRzdIcLkFIcmo\nY2awuoOg9hX0nhZwojGGo3qDvt8tekPDMwTG/UudaVCg6auu7aBeV5V7fYFKy+c+\n3twKR1+1W2VLQpHRgyu4Xrtc2GT1RzwByJ3T7FNrezShjKWX1RRYp13tAoGAXGZ8\nVuz3wlnIER/81Z74IotR9K8RRvuUOxO/ZjK7TnxzWYBgezDL+rO83f0PtRJsmR9z\nyNghf0+M+QHRofQwlnIxB184PRRvcLeaXyMdVCY3HsD5Ifup1fH3df0NlVOQ/2jI\nPAzPw4WOzKdO0rdZMCcgB+zpURjfMBglKe61W5ECgYB3YB5CyCcjkZ7xhmBdCPoY\nO246gNBN1JNGUE0A9jjtPa4NrOgJUBLnYkdr76USWrXsiax91eUCly+uZKtsluY9\ncxrX95VhGiyVi7YZU/akV0BDMFdIuW9yI5XtMWUE+tegOUk5Yb9vDkBwtwi4ojp4\n/Sobrb7ETymPS2EFKvxywA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "clean-road-270813@appspot.gserviceaccount.com",
+  "client_id": "105527900155292254278",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/clean-road-270813%40appspot.gserviceaccount.com"
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.w3.org/1999/xhtml" layout:decorate="~{fragments/mainLayout}">
+<head>
+    <link rel="stylesheet" href="../static/css/style.css" th:href="@{css/style.css}">
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/4.3.1/css/bootstrap.min.css} "/>
+
+</head>
+<body class="gray-bg">
+
+<div layout:fragment="content" class="container">
+
+    <!--<div class="jumbotrom">-->
+        <!--<p>Hola a todos Bootstrap 4</p>-->
+        <!--<input type="submit" class="btn btn-success" value="Envio">-->
+    <!--</div>-->
+
+    <div class="middle-box text-center loginscreen animated fadeInDown">
+        <div>
+            <div>
+                <h1 class="logo-name">
+                    <img th:src="@{../static/images/fe.jpg}" width="300px;" /></h1>
+            </div>
+            <!--h3>Bievenido al Panel de Control</h3-->
+            <p>Ingrese su Usuario y contraseña</p>
+            <form method="post" class="m-t" role="form" action="login.html">
+                <input type="hidden" id="error" value="<%=error%>"/>
+                <input type="hidden" id="msj_login" value="<%=msj_login%>" />
+                <input type="hidden" id="navi" name="navi"/>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Username" name="username" id="username" onkeyup="this.value=this.value.toUpperCase()" required="">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Password" name="password" id="password" required="">
+                </div>
+                <button type="submit" class="btn btn-primary block full-width m-b" name="btnlogin" id="btnlogin">Login</button>
+            </form>
+            <p class="m-t">
+                <small>Todos los derechos reservados. &copy; 2020</small>
+            </p>
+        </div>
+    </div>
+
+</div>
+
+<script th:src="@{/webjars/jquery/3.3.1/jquery.min.js}"></script>
+<script th:src="@{/webjars/bootstrap/4.3.1/js/bootstrap.min.js}"></script>
+
+</body>
+</html>

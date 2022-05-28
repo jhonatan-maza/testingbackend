@@ -1,0 +1,75 @@
+@import url('normalize.css');
+
+/********************* Inicio de Sesion ****/
+.bgImgUser{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(27deg, #00007f 50%, #00005f 50%);
+}
+.centerDivUser{
+    width: 350px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-image: linear-gradient(27deg, #00005f 50%, #00007f 50%);
+    box-shadow: 0 1px 6px rgba(255,255,255,0.5) , 0 1px 4px rgba(255,255,255,0.7);
+}
+#profileUser{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: relative;
+    top: -60px;
+    left: calc( (350px - 120px) / 2 );
+    background-color: #00003f;
+    box-shadow: 0 1px 6px rgba(255,255,255,0.5) , 0 1px 4px rgba(255,255,255,0.7);
+}
+.contenedorLogeo input[type="text"], .contenedorLogeo input[type="password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.contenedorLogeo input[type="text"]:hover, .contenedorLogeo input[type="password"]:hover{
+    width: 300px;
+    border-color: #00C851;
+}
+.contenedorLogeo input[type="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #00C851;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.contenedorLogeo input[type="submit"]:hover{
+    background: #2ecc71;
+}
+/********************* Fin Inicio de Sesion ****/
+
+
+/*Agregados*/
+.conf_titulo_contenido_menu{
+    color:#3498db;
+}
+.error-input{
+    background: rgb(251, 227, 228);
+    border: 1px solid #fbc2c4;
+    color: #8a1f11;
+}
